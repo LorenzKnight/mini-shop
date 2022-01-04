@@ -1,0 +1,154 @@
+@media only screen and (min-device-width : 280px) and (max-device-width : 1023px) {
+    .foot_wrap {
+        width: 100%;
+        margin-bottom: 20px;
+        border-top: 1px solid #CCC;
+        justify-content: center;
+    }
+    .foot {
+        min-width: 280px;
+        overflow: auto;
+    }
+    .page-desc {
+        width: 94%;
+        padding: 3%;
+        justify-content: center;
+        align-items: center;
+    }
+    .page-desc img {
+        width: 80%;
+        display: flex;
+        justify-content: left;
+    }
+    .page-desc p {
+        font-size: 1em;
+        line-height: 1.4em;
+        text-align: justify;
+    }
+    .bestsellers {
+        width: 100%;
+        padding: 0;
+    }
+    .bs-col {
+        width: 100%;
+        text-align: left;
+    }
+    .bs-col h4 {
+        margin: 0;
+    }
+    #f-title1 {
+        list-style: none;
+        margin-left: -20px;
+        height: 30px;
+    }
+    #f-title2 {
+        display: none;
+    }
+    .bs-col ul {
+    }
+    .bs-col ul li {
+        height: 24px;
+    }
+    .bs-col ul li a{
+        color: #1591A0;
+        font-size: 1em;
+        text-decoration: none;
+    }
+    .bs-col ul li a:hover {
+        color: #0FA7BA;
+        font-weight: 600;
+    }
+    .bs-col img {
+        width: 20px;
+    }
+    #nonstyle {
+        list-style: none;
+        margin-left: -30px;
+    }
+    .social {
+        width: 100%;
+        padding: 2%;
+        display: flex;
+        justify-content: center;
+    }
+}
+@media only screen and (min-device-width: 1024px) {
+    .foot_wrap {
+        width: 100%;
+        margin-bottom: 20px;
+        border-top: 1px solid #CCC;
+        display: flex;
+        justify-content: center;
+    }
+    .foot {
+        min-width: 768px;
+        width: 1200px;
+        height: 200px;
+        display: flex;
+    }
+    .page-desc {
+        width: 48%;
+        padding: 2% 2% 2% 0;
+        justify-content: center;
+        align-items: center;
+    }
+    .page-desc img {
+        width: 40%;
+        display: flex;
+        justify-content: left;
+    }
+    .page-desc p {
+        font-size: 0.8em;
+        line-height: 1.2em;
+        text-align: justify;
+    }
+    .bestsellers {
+        width: 25%;
+        padding: 2% 0;
+        display: flex;
+    }
+    .bs-col {
+        width: 50%;
+        text-align: left;
+    }
+    .bs-col h4 {
+        margin: 0;
+    }
+    #f-title1 {
+        list-style: none;
+        margin: 0 0 0 -20px;
+        height: 20px;
+    }
+    #f-title2 {
+        list-style: none;
+        margin: 0 ;
+        height: 20px;
+    }
+    .bs-col ul {
+        padding-top: 40px;
+    }
+    .bs-col ul li {
+        height: 24px;
+    }
+    .bs-col ul li a{
+        color: #1591A0;
+        font-size: 0.8em;
+        text-decoration: none;
+    }
+    .bs-col ul li a:hover {
+        color: #0FA7BA;
+        font-weight: 600;
+    }
+    .bs-col img {
+        width: 20px;
+    }
+    #nonstyle {
+        list-style: none;
+    }
+    .social {
+        width: 25%;
+        padding: 2% 0;
+        display: flex;
+        justify-content: center;
+    }
+}

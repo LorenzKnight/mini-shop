@@ -1,0 +1,28 @@
+@media only screen and (min-device-width : 280px) and (max-device-width : 1023px) {
+    .sidebar {
+        display: none;
+    }
+}
+@media only screen and (min-device-width: 1024px) {
+    .sidebar {
+        width: 250px;
+        border-right: 1px solid #CCC;
+    }
+    .sidebar ul {
+        margin: 1em 0;
+        padding: 0;
+    }
+    .sidebar ul li {
+        padding: 0.3em 1em;
+        list-style: none;
+        text-align: left;
+    }
+    .sidebar ul li a {
+        color: #1591A0;
+        text-decoration: none;
+    }
+    .sidebar ul li a:hover {
+        color: #0FA7BA;
+        font-weight: 600;
+    }
+}
