@@ -132,7 +132,7 @@ class Wrap extends Component {
                 <div className='head_wrap'>
                     <div className="head">
                         <div className='hamburger'>
-                            <label for="check">
+                            <label htmlFor="check">
                                 <input type="checkbox" id="check"/> 
                                 <span></span>
                                 <span></span>
